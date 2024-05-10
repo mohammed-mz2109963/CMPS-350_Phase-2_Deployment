@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Profile</title>
+    <link rel="stylesheet" href="CSS/BuyerProfile.css">
+    <link rel="stylesheet" href="CSS/HomePage.css">
+    <link rel="stylesheet" href="./CSS/style.css"/>
+
+    <script src = "Javascript/AdminProfile.js"></script>
+    <!-- <script src = "Javascript/SellerProfile.js"></script> -->
+</head>
+
+
+<body>
+    <header class="head">
+        <a href="BuyerHomePage.html" class="logo">
+            <img src="./CSS/images/cars/Starman-cuate.png" alt="car-logo">
+        </a>
+
+        <nav class="navigation">
+            <a href="AdminHomePage.html">Home</a>
+            <a href="AdminHomePage.html#search">Search</a>
+            <a href="AdminHomePage.html#contact-us">Contact Us</a>
+            <a href="AdminHomePage.html#reviews">Reviews</a>
+        </nav>
+
+        <section class="menu-icons">
+            <a href="AdminHomePage.html#search">
+                <img src="./CSS/images/cars/icons8-search-64.png" width="30px">
+            </a>
+            <!-- <a class="cart-span" href="cart.html">
+                <img src="./CSS/images/cars/icons8-cart-30.png" width="30px"><span style="color: red;">0</span>
+            </a> -->
+            <a class="profile_img" href="AdminProfile.html">
+                <img src="./CSS/images/cars/icons8-account-96.png" width="30px">
+            </a>
+            <a href="SignIn.html">
+                <img src="./CSS/images/cars/icons8-change-90.png" width="30px">
+            </a>
+        </section>
+    </header>
+
+    <main class="seller-container">
+        <section class="profile-info">
+            <div class="profile-image">
+                <img src="./CSS/images/cars/icons8-conference-96.png" alt="profile-image">
+            </div>
+            <div class="account-type">
+                <p id = "account-type">Account Type: Admin</p>
+            </div>
+            <!-- <div class="name-surname">
+                <p id = "name">Name: Buyer Name</p>
+                <p id = "surname">Surname: Buyer Surname</p>
+            </div> -->
+        </section>
+
+        <div class = "right-side">
+            <!-- <section class="account-details">
+                <p>Company Name: </p>
+                <p>Bank Account: </p>
+            </section>
+
+            <section class="update-form" id = "seller-form">
+                <h2>Update Buyer Details</h2>
+                <form id="buyer-form">
+                    <label for="contact-person-name">Company Name:</label>
+                    <input type="text" id="company-name" name="company-name">
+                    <label for="bank-account">Bank Account:</label>
+                    <input type="text" id="bank-account" name="bank-account">
+                    <button type="submit">Update Details</button>
+                </form> -->
+
+                <section class = "cart-container" id = "cart-container"><h1>products-container</h1></section>
+                <section class = "purchase-history-container" id = "purchase-history-container"><h1>purchase-history-container</h1></section>
+                <section class = "users-container" id = "users-container"><h1>users-container</h1></section>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

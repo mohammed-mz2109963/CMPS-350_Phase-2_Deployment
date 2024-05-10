@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Profile</title>
+    <link rel="stylesheet" href="CSS/BuyerProfile.css">
+    <link rel="stylesheet" href="CSS/HomePage.css">
+    <link rel="stylesheet" href="./CSS/style.css"/>
+
+    <script src = "Javascript/BuyerProfile.js"></script>
+</head>
+
+
+<body>
+    <header class="head">
+        <a href="BuyerHomePage.html" class="logo">
+            <img src="./CSS/images/cars/Starman-cuate.png" alt="car-logo">
+        </a>
+
+        <nav class="navigation">
+            <a href="BuyerHomePage.html">Home</a>
+            <a href="BuyerHomePage.html#search">Search</a>
+            <a href="BuyerHomePage.html#contact-us">Contact Us</a>
+            <a href="BuyerHomePage.html#reviews">Reviews</a>
+        </nav>
+
+        <section class="menu-icons">
+            <a href="BuyerHomePage.html#search">
+                <img src="./CSS/images/cars/icons8-search-64.png" width="30px">
+            </a>
+            <a class="cart-span" href="cart.html">
+                <img src="./CSS/images/cars/icons8-cart-30.png" width="30px"><span style="color: red;">0</span>
+            </a>
+            <a href="" class="profile_img">
+                <img src="./CSS/images/cars/icons8-account-96.png" width="30px">
+            </a>
+            <a href="SignIn.html">
+                <img src="./CSS/images/cars/icons8-change-90.png" width="30px">
+            </a>
+        </section>
+    </header>
+
+    <main class="buyer-container">
+        <section class="profile-info">
+            <div class="profile-image">
+                <img src="./CSS/images/cars/icons8-conference-96.png" alt="profile-image">
+            </div>
+            <div class="account-type">
+                <p id = "account-type">Account Type: Buyer</p>
+            </div>
+            <div class="name-surname">
+                <p id = "name">Name: Buyer Name</p>
+                <p id = "surname">Surname: Buyer Surname</p>
+                <p id = "balance">Account Balance: </p>
+                <button id = "add-balance">Add Balance</button>
+            </div>
+
+            <section class = "purchase-history" id = "purchase-history">
+                <h1>purchase-history</h1>
+                <div class = "history-container" id = "history-container"></div>
+            </section>
+        </section>
+
+
+        <div class = "right-side">
+            <section class="shipping-address">
+                <h2>Shipping Address</h2>
+                <p>Contact Person's Name: John Doe</p>
+                <p>Street No./Name: 123 Main St</p>
+                <p>Apartment Number or Suite Number: Apt 456</p>
+                <p>City & State: Anytown, CA</p>
+                <p>Zip Code: 12345</p>
+                <p>Contact Person's Mobile Number: 123-456-7890</p>
+            </section>
+
+            <section class="update-form">
+                <h2>Update Buyer Details</h2>
+                <form id="buyer-form">
+                    <label for="contact-person-name">Contact Person's Name:</label>
+                    <input type="text" id="contact-person-name" name="contact-person-name">
+                    <label for="street">Street No./Name:</label>
+                    <input type="text" id="street" name="street">
+                    <label for="apartment-suite-number">Apartment Number or Suite Number:</label>
+                    <input type="text" id="apartment-suite-number" name="apartment-suite-number">
+                    <label for="city-state">City & State:</label>
+                    <input type="text" id="city-state" name="city-state">
+                    <label for="zip-code">Zip Code:</label>
+                    <input type="text" id="zip-code" name="zip-code">
+                    <label for="mobile-number">Contact Person's Mobile Number:</label>
+                    <input type="text" id="mobile-number" name="mobile-number">
+                    <button type="submit">Update Details</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

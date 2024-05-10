@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "type": "buyer",
+            "username": "BUYER",
+            "password": "BUYER@Scambox",
+            "name": "buyer_name",
+            "surname": "buyer_surname",
+            "shipping_address": {
+                "contact_person_name": "Buyer",
+                "street": "123 Buyer Street",
+                "apartment_suite_number": "Apt 404",
+                "city": "Buyer Town",
+                "state": "QA",
+                "zip_code": "22744",
+                "mobile_number": "123-456-7890"
+            },
+            "money_balance": 1000
+        },
+        {
+            "type": "seller",
+            "username": "SELLER",
+            "password": "SELLER@Scambox",
+            "company_name": "seller_company",
+            "bank_account": "123456789"
+        },
+        {
+            "type": "admin",
+            "username": "ADMIN",
+            "password": "ADMIN@Scambox"
+        }
+    ]
+}

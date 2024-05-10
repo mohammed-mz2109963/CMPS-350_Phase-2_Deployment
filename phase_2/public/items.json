@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "T-shirt",
+      "category": "Clothing",
+      "price": 50
+    },
+    {
+      "name": "car",
+      "category": "Toys",
+      "price": 30
+    },
+    {
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 5000
+    }
+  ]
+}

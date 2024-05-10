@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/HomePage.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <script src="Javascript/Javascript.js"></script>
+    <script src="Javascript/HomeCars.js"></script>
+    <script src="Javascript/FillForm.js"></script>
+</head>
+
+<body>
+
+    <header class="head">
+
+        <a href="BuyerHomePage.html" class="logo">
+            <img src="./CSS/images/cars/Starman-cuate.png" alt="car-logo">
+        </a>
+
+
+
+        <nav class="navigation">
+
+
+            <a href="BuyerHomePage.html">Home</a>
+            <a href="BuyerHomePage.html#search">Search</a>
+            <a href="BuyerHomePage.html#contact-us">Contact Us</a>
+            <a href="BuyerHomePage.html#reviews">Reviews</a>
+
+
+        </nav>
+
+        <section class="menu-icons">
+            <a href="BuyerHomePage.html#search">
+                <img src="./CSS/images/cars/icons8-search-64.png" width=30px>
+            </a>
+            <!-- <img src="./CSS/images/cars/icons8-cart-30.png" width=30px> -->
+            <a class="cart-span" href="cart.html">
+                <img src="./CSS/images/cars/icons8-cart-30.png" width=30px>
+            </a>
+
+            <a href="BuyerProfile.html" class="profile_img">
+                <img src="./CSS/images/cars/icons8-account-96.png" width=30px>
+            </a>
+
+            <a href="SignIn.html">
+                <img src="./CSS/images/cars/icons8-change-90.png" width=30px>
+            </a>
+        </section>
+
+    </header>
+
+
+
+    <main>
+        <section class="home" id="home">
+            <div class="name">
+                <h3 class="animate slideFromLeft">ScamBox Automobiles</h3>
+                <p class="animate slideFromRight">FIND YOUR DREAM CAR AT A REASONABLE PRICE </p>
+                <div class="hbc">
+                    <a href="#featured-cars">
+                        <button class="hb hb1 animate bounce">Check our Products</button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="slider">
+            <div class="slide-animation">
+
+                <img src="./CSS/images/slide/7.jpg">
+                <img src="./CSS/images/slide/6.jpg">
+                <img src="./CSS/images/slide/1.jpg">
+                <img src="./CSS/images/slide/2.jpg">
+                <img src="./CSS/images/slide/3.jpg">
+                <img src="./CSS/images/slide/10.jpg">
+                <img src="./CSS/images/slide/5.jpg">
+                <img src="./CSS/images/slide/6.jpg">
+                <img src="./CSS/images/slide/13.webp">
+                <img src="./CSS/images/slide/14.jpeg">
+                <img src="./CSS/images/slide/15jpeg.jpeg">
+                <img src="./CSS/images/slide/9.jpg">
+
+
+
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="service-bracket">
+                <article>
+                    <h3>Largest Dealership of Cars</h3>
+                    <figure><img src="CSS/images/cars/Fast car-cuate.png" alt="service-img"></figure>
+                    <figcaption>
+                        <p>Explore the widest selection of cars at ScamBox Automobiles, there is an option that suites
+                            every style and budget! Finding your dream car has never been easier.</p>
+                    </figcaption>
+                </article>
+            </div>
+
+            <div class="service-bracket">
+                <article>
+                    <h3>Unlimited Repair Warranty</h3>
+                    <figure><img src="CSS/images/cars/Car repair.png" alt="service-img"></figure>
+                    <figcaption>
+                        <p>Our unlimited support warranty covers all unexpected repairs and maintenance beyond purchase,
+                            allowing you to enjoy a peace of mind.</p>
+                    </figcaption>
+                </article>
+            </div>
+
+            <div class="service-bracket">
+                <article>
+                    <h3>Insurance Support</h3>
+                    <figure><img src="CSS/images/cars/Car insurance.png" alt="serivce-img"></figure>
+                    <figcaption>
+                        <p>We offer hassle-free insurance solutions tailored specifically to your needs by our team of
+                            experts, ensuring that you are always protected on the roads and highways.</p>
+                    </figcaption>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- <section class = "seller-area" id = "seller-area">
+            <h1>Want to Sell a Car?</h1><br><br>
+            <button class = "sell-button" id = "sell-button">Make a Listing</button>
+        </section> -->
+
+
+        <div class="featured-cars" id="featured-cars">
+            <h1>Featured Cars</h1>
+            <p>Straight From The Companies!</p>
+            <section class="cars" id="cars">
+
+                <div class="car-box">
+                    <img src="./CSS/images/GT.jpg">
+
+                    <h2>Ford GT Mk.2</h2>
+                    <p class="car-info">Year: 2023</p>
+                    <br>
+
+                    <h4 class="car-price">$1.2 Million</h4><br>
+                    <P class="car-description">With a 700 horsepower 3.5-liter EcoBoost engine, race-proven aerodynamics and competition-oriented handling, the GT Mk II has been co-developed by Ford Performance and Multimatic based on competitive learnings from Ford’s successful FIA World Endurance Championship and IMSA WeatherTech SportsCar Championship campaigns with the Ford GT race car yet GT Mk II is engineered independent of race series rules, regulations and limitations.</P>
+                    <br><br>
+                    <a class="add-cart-featured" id = "add-cart-featured" href="#">Learn More</a>
+                </div>
+                <div class="car-box">
+                    <img src="./CSS/images/RSR.jpg">
+                    <h2>Porsche 911 RSR</h2>
+                    <p class="car-info">Year: 2019</p>
+                    <br>
+
+                    <h4 class="car-price">$150,000</h4><br>
+                    <P class="car-description">The Porsche 911 RSR and its predecessor GT3 RSR, GT3 RS and GT3 R were a line of GT racing cars produced by Porsche that are used in motorsport for endurance races. They are based on the currently highest class in GT racing worldwide, the GTE class from ACO. These regulations lead back to the concept of a GT3 class below the then Group GT1 and GT2 from 1998.</P>
+                    <br><br>
+                    <a class="add-cart-featured" id = "add-cart-featured" href="#">Learn More</a>
+                </div>
+                <div class="car-box">
+                    <img src="./CSS/images/Vulcan.png">
+                    <h2>Aston Martin Vulcan</h2>
+                    <p class="car-info">Year: 2015</p>
+                    <br>
+
+                    <h4 class="car-price">$2.3 Million</h4>
+                    <P class="car-description">The engine, a 7.0-litre naturally-aspirated V12, mounted in an aluminium alloy chassis with a carbon fibre body, has a power output of 831 PS (611 kW; 820 hp) at 7,750 rpm and 575 lb⋅ft (780 N⋅m) of torque at 6,500 rpm.[1][6] The top speed (without the wing) is 208 mph (335 km/h) and 0-60 time is 2.9 seconds.</P>
+                    <br><br>
+                    <a class="add-cart-featured" id = "add-cart-featured" href="#">Learn More</a>
+                </div>
+                <div class="car-box">
+                    <img src="./CSS/images/Beetle.jpg">
+                    <h2>Volkswagen Beetle</h2>
+                    <p class="car-info">Year: 1938</p>
+                    <br>
+
+                    <h4 class="car-price">$75,000</h4><br>
+                    <P class="car-description">The Volkswagen Beetle—officially the Volkswagen Type 1—is an economy car that was built by the German company Volkswagen (VW) from 1938 until 2003. It has a rear-engine design with a two-door body style and is intended for five occupants (later, Beetles were restricted to four people in some countries).</P>
+                    <br><br>
+                    <a class="add-cart-featured" id = "add-cart-featured" href="#">Learn More</a>
+                </div>
+
+
+            </section>
+        </div>
+
+
+
+        <section class="search" id="search">
+            <form action="" class="search-car-form" id="search-car-form">
+
+                <br><br><a href="#search">
+                    <h1>Find Your Car</h1>
+                </a><br><br>
+
+                <div class="year-field" id="year-field">
+                    <label for="year">Year:</label><br>
+                    <select name="year" id="year">
+
+                        <option value="Select Year">Select Year</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+
+                    </select>
+                </div>
+
+                <div class="car-type-field" id="car-type-field">
+                    <label for="car-type">Car Type:</label><br>
+                    <select name="car-type" id="car-type">
+
+                        <option value="Select Type">Select Type</option>
+                        <option value="hatchback">Hatchback</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="muv">MUV</option>
+                        <option value="coupe">Coupe</option>
+                        <option value="convertible">Convertible</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="sports">Sports</option>
+                        <option value="hyper">Hyper</option>
+
+                    </select>
+                </div>
+
+                <div class="make-field" id="make-field">
+                    <label for="make">Make:</label><br>
+                    <select name="car-make" id="car-make">
+
+                        <!-- <option value="Select Make">Select Make</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Aston Martin">Aston Martin</option>
+                        <option value="Volkswagon">Volkswagon</option>
+                        <option value="Porsche">Porsche</option> -->
+
+                    </select>
+                </div>
+
+                <div class="model-field" id="model-field">
+                    <label for="model">Model:</label><br>
+                    <input type="text" name="model" id="model">
+
+                    <!-- <option value="Select Model">Select Model</option> -->
+
+                    </input>
+                </div>
+
+                <div class="min-price-field" id="min-price-field">
+                    <label for="min-price">Minimum Price:</label><br>
+                    <input type="text" name="min-price" id="min-price">
+                </div>
+
+                <div class="max-price-field id = "max-price-field">
+                    <label for="max-price">Maximum Price:</label><br>
+                    <input type="text" name="max-price" id="max-price">
+                </div>
+
+                <div class="submit" id="submit">
+                    <!-- <form action="/this-will-redirect-to-the-page-with-the-car-that-the-user-will-search-for" method="GET"> -->
+                    <!-- <input type="search" class="search-button" id="search-button"> -->
+                    <button type="submit" class="submit-search-form" id="submit-search-form">Submit</button>
+                    <button type="reset" class="reset-search-form" id="reset-search-form">Reset</button>
+                    <!-- </form> -->
+                </div>
+            </form>
+        </section>
+
+
+        <section class="search-cars" id="search-cars">
+
+        </section>
+
+
+        <section class="contact-us" id="contact-us">
+            <br><br><a href="#contact-us">
+                <h1>Contact Us</h1>
+            </a><br><br>
+
+            <div class="form-content">
+                <p>Have questions or want to drop a review? Reach out to us using the form below:</p><br>
+
+                <form class="contact-form">
+
+                    <div class="input">
+                        <label for="name">
+                            <h4>Your Name: </h4>
+                        </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="email">
+                            <h4>Your Email: </h4>
+                        </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="message">
+                            <h4>Your Message: </h4>
+                        </label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+
+                    <br>
+                    <div class="submit">
+                        <button>Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+        <br><br><br>
+
+        <section class="reviews" id="reviews">
+            <a href="#reviews">
+                <h1>What Our Clients Say:</h1>
+            </a>
+            <br><br>
+            <section class="review-box">
+
+                <div class="review-bracket">
+                    <article>
+
+                        <figure><img src="./CSS/images/Client PNG/ABRAHAM LINCOLN.png" alt="Abraham Lincoin"></figure>
+                        <figcaption>
+                            <p>This is the best Automobile service company ever. I recommend everyone to buy their dream
+                                car from here. This company is Of the people, For the people, By the people</p>
+                            <h5>Abraham Lincoin</h5>
+                            <h5>New York</h5>
+                        </figcaption>
+                    </article>
+                </div>
+                <div class="review-bracket">
+                    <article>
+
+                        <figure><img src="./CSS/images/Client PNG/BARACK OBAMA.png" alt="BARACK OBAMA"></figure>
+                        <figcaption>
+                            <p>This is the best Automobile service company ever. I recommend everyone to buy their dream
+                                car from here. This company is Of the people, For the people, By the people</p>
+                            <h5>BARACK OBAMA</h5>
+                            <h5>Washington</h5>
+                        </figcaption>
+                    </article>
+                </div>
+                <div class="review-bracket">
+                    <article>
+
+                        <figure><img src="./CSS/images/Client PNG/BILL CLINTON.png" alt="BILL CLINTON"></figure>
+                        <figcaption>
+                            <p>This is the best Automobile service company ever. I recommend everyone to buy their dream
+                                car from here. This company is Of the people, For the people, By the people</p>
+                            <h5>BILL CLINTON</h5>
+                            <h5>Los Angeles</h5>
+                        </figcaption>
+                    </article>
+                </div>
+
+            </section>
+    </main>
+    <script src="./Javascript/Javascript.js"></script>
+    <!-- <script src="./Javascript/cart.js"></script> -->
+</body>
+
+<footer class="footer">
+    <a href="https://www.youtube.com/watch?v=q-Y0bnx6Ndw">
+        <div class="socials">
+            <img class="soc" src="./CSS/images/socials/icons8-facebook-50.png" alt="facebook" width=30px>
+            <img class="soc" src="./CSS/images/socials/icons8-instagram-50.png" alt="instagram" width=30px>
+            <img class="soc" src="./CSS/images/socials/icons8-gmail-50.png" alt="gmail" width=30px>
+            <img class="soc" src="./CSS/images/socials/icons8-linkedin-50.png" alt="linkedIn" width=30px>
+            <img class="soc" src="./CSS/images/socials/icons8-twitter-50.png" alt="icons8-twitter-50" width=30px>
+        </div>
+    </a>
+    <br>
+    <section class="copyrights" id="copyrights">
+        <a class="button" href="#top">&copy; 2024 ScamBox Automobiles</a>
+    </section>
+</footer>
+
+</html>

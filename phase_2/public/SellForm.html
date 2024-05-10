@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/SellForm.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <script src="Javascript/FillForm.js"></script>
+    <script src="Javascript/SubmitForm.js"></script>
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch car makes from the API
+            fetch('https://databases.one/api/?format=json&select=make&api_key=Your_Database_Api_Key')
+                .then(response => response.json())
+                .then(data => {
+                    const makes = data.result;
+                    const makeSelect = document.getElementById('car-make');
+
+                    // Populate the options of the make select element
+                    makes.forEach(make => {
+                        const option = document.createElement('option');
+                        option.text = make.make;
+                        option.value = make.make_id;
+                        makeSelect.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching car makes:', error);
+                });
+        });
+    </script> -->
+    
+</head>
+
+<body>
+
+    <header class="head">
+
+        <a href="SellerHomePage.html" class="logo">
+            <img src="./CSS/images/cars/Starman-cuate.png" alt="car-logo">
+        </a>
+
+
+
+        <nav class="navigation">
+
+
+            <a href="SellerHomePage.html">Home</a>
+            <a href="SellerHomePage.html#search">Search</a>
+            <a href="SellerHomePage.html#contact-us">Contact Us</a>
+            <a href="SellerHomePage.html#reviews">Reviews</a>
+
+
+        </nav>
+
+        <!-- <section class="menu-icons">
+            <a href="HomePage.html#search">
+                <img src="./CSS/images/cars/icons8-search-64.png" width=30px>
+            </a>
+            
+            <a class="cart-span" href="cart.html">
+                <img src="./CSS/images/cars/icons8-cart-30.png" width=30px><span style="color: red
+                ;">0</span>
+            </a>
+            <img src="./CSS/images/cars/icons8-account-96.png" width=30px>
+
+        </section> -->
+
+    </header>
+
+
+    <main>
+
+        <form action="" class="sell-form" id="sell-form">
+
+            <div class="seller-details">
+                <h1>Your Details</h1>
+                <div class="input-field">
+                    <label for="seller-name">Name:</label><br>
+                    <input type="text" name="seller-name" id="seller-name" required><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="seller-email">EMail:</label><br>
+                    <input type="email" name="seller-email" id="seller-email" required><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="seller-phone">Phone:</label><br>
+                    <input type="tel" name="seller-phone" id="seller-phone" required><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="seller-contact">Preferred Method of Contact:</label><br>
+                    <input type="radio" name="seller-contact" id="contact-sms">SMS
+                    <input type="radio" name="seller-contact" id="contact-email">EMail
+                </div>
+            </div>
+
+
+            <div class="car-details">
+                <h1>Car Details</h1>
+                <div class="input-field">
+                    <label for="car-year">Year:</label><br>
+                    <input type="text" name="car-year" id="car-year" required><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="car-make">Make:</label><br>
+                    <select name="car-make" id="car-make" required></select><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="car-model">Model:</label><br>
+                    <input type="text" name="car-model" id="car-model" required></input><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="car-type">Type:</label><br>
+                    <select name="car-type" id="car-type" required>
+                        <option value="hatchback">Hatchback</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="muv">MUV</option>
+                        <option value="coupe">Coupe</option>
+                        <option value="convertible">Convertible</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="sports">Sports</option>
+                        <option value="hyper">Hyper</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label for="car-price">Price:</label><br>
+                    <input type="text" name="car-price" id="car-price" required><br>
+                </div>
+
+                <div class="input-field">
+                    <label for="car-km">Distance Run [km]:</label><br>
+                    <input type="number" name="car-distance" id="car-distance" required><br>
+                </div>
+            </div>
+
+
+            <<div class="car-image">
+                <div class="input-field">
+                    <label for="car-image-url">Image URL:</label><br>
+                    <input type="text" name="car-image-url" id="car-image-url" required><br>
+                </div>
+            </div>
+
+            <div class="submit-button">
+                <button type="submit">Submit Form</button>
+            </div>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <br><br><br><br><br>
+    </footer>
+
+</body>
+
+</html>
