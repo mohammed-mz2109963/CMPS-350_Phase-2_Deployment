@@ -65,6 +65,8 @@ async function main() {
             type: "seller",
             username: "SELLER1",
             password: "SELLER1@Scambox",
+            name: "seller1_name",
+            surname: "seller1_surname",
             company_name: "Seller Company 1",
             bank_account: "123456789"
         },
@@ -73,8 +75,24 @@ async function main() {
             type: "seller",
             username: "SELLER2",
             password: "SELLER2@Scambox",
+            name: "seller2_name",
+            surname: "seller2_surname",
             company_name: "Seller Company 2",
             bank_account: "987654321"
+        }
+        ]
+    });
+
+    // Create sellers
+    const admins = await prisma.user.createMany({
+        data: [
+        {
+            id: 6,
+            type: "admin",
+            username: "ADMIN1",
+            password: "ADMIN1@Scambox",
+            name: "ADMIN1_name",
+            surname: "ADMIN1_surname"
         }
         ]
     });
@@ -258,6 +276,8 @@ async function main() {
     console.log(buyers);
     console.log("Sellers:");
     console.log(sellers);
+    console.log("Admins:");
+    console.log(admins);
     console.log("Products:");
     console.log(products);
     console.log("Purchases:");
